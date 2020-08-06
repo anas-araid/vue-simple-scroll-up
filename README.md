@@ -1,7 +1,7 @@
 # Vue Scroll To Top
   
 
-![npm](https://img.shields.io/npm/v/vue-backtotop.svg)(https://www.npmjs.com/package/vue-simple-scroll-up)
+[![npm](https://img.shields.io/npm/v/vue-backtotop.svg)](https://www.npmjs.com/package/vue-simple-scroll-up)
 ![npm](https://img.shields.io/npm/v/vue-simple-scroll-up)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/vue-simple-scroll-up)
 ![GitHub](https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up)
