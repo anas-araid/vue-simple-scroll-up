@@ -65,6 +65,16 @@
   position: fixed;
   z-index: 1000;
   margin-top:30px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color:white;
+  outline:none;
+}
+.vue-scroll-button:hover{
+  box-shadow: 0 12px 19px -6px black;
+  transition: 0.5s;
 }
 .vue-div-wrapper{
   text-align:center;
