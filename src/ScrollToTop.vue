@@ -71,13 +71,13 @@
   margin-top:30px;
   border-radius: 20px;
   border: none;
-  padding: 10px;
+  padding: 8px;
   background-color: black;
   color:white;
   outline:none;
 }
 .vue-scroll-button:hover{
-  box-shadow: 0 12px 19px -6px black;
+  box-shadow: 0 12px 15px -6px black;
   transition: 0.5s;
 }
 .vue-div-wrapper{
