@@ -16,11 +16,11 @@
       },
       visibleY:{
         type: Number,
-        default: 300,
+        default: 400,
       },
       duration:{
         type: Number,
-        default: 1000,
+        default: 800,
       }
     },
     data(){
@@ -46,13 +46,13 @@
         //==========================================
         // thanks stackoverflow for this function ¯\_(ツ)_/¯
         function step (newTimestamp) {
-            if (oldTimestamp !== null) {
-                scrollY -= totalScrollDistance * (newTimestamp - oldTimestamp) / duration;
-                if (scrollY <= 0) return document.scrollingElement.scrollTop = 0;
-                document.scrollingElement.scrollTop = scrollY;
-            }
-            oldTimestamp = newTimestamp;
-            window.requestAnimationFrame(step);
+          if (oldTimestamp !== null) {
+            scrollY -= totalScrollDistance * (newTimestamp - oldTimestamp) / duration;
+            if (scrollY <= 0) return document.scrollingElement.scrollTop = 0;
+            document.scrollingElement.scrollTop = scrollY;
+          }
+          oldTimestamp = newTimestamp;
+          window.requestAnimationFrame(step);
         }
         window.requestAnimationFrame(step);
         //==========================================
@@ -77,7 +77,7 @@
   outline:none;
 }
 .vue-scroll-button:hover{
-  box-shadow: 0 12px 15px -6px black;
+  box-shadow: 0 12px 13px -6px black;
   transition: 0.5s;
 }
 .vue-div-wrapper{

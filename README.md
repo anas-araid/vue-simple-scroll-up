@@ -1,7 +1,8 @@
 # Vue Scroll To Top
   
 
-[![npm](https://img.shields.io/npm/v/vue-backtotop.svg)](https://www.npmjs.com/package/vue-simple-scroll-up)
+![npm](https://img.shields.io/npm/v/vue-backtotop.svg)(https://www.npmjs.com/package/vue-simple-scroll-up)
+![npm](https://img.shields.io/npm/v/vue-simple-scroll-up)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/vue-simple-scroll-up)
 ![GitHub](https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up)
   
@@ -10,7 +11,7 @@ Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly 
 
 Can be used also to refresh data to load newest contents using *scrolledOnTop* event.
 
-Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh button. [[Link]](https://github.com/asdf1899/vue-simple-scroll-up#inspired-by-instagram-linkedin-reddit-etc-scroll-to-refresh-buttons)
+Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh button. [[Images]](https://github.com/asdf1899/vue-simple-scroll-up#inspired-by-instagram-linkedin-reddit-etc-scroll-to-refresh-buttons)
 
 
 
@@ -56,8 +57,8 @@ components: {
 | Property | Type | Default Value | Description |
 | ------------ | ------------ | ------------ | ------------ |
 | text | String | 'Back to top' | Button description.|
-| visibleY | Number | 300 | Show button when scrollY equals to visibleY value.|
-| duration | Number | 250 | Scrolling animation duration.|
+| visibleY | Number | 400 | Show button when scrollY equals to visibleY value.|
+| duration | Number | 800 | Scrolling animation duration.|
 
 ## Events
 
