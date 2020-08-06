@@ -1,7 +1,7 @@
 {
   "name": "vue-simple-scroll-up",
   "description": "Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly when clicked. Can be used also to refresh data to load newest contents",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/vue-simple-scroll-up.umd.js",
   "module": "dist/vue-simple-scroll-up.esm.js",
   "unpkg": "dist/vue-simple-scroll-up.min.js",
