@@ -87,7 +87,6 @@ Overwrite this css properties to change button style:
   background-color: #4CAF50; /* button background color */
   color: white; /* button text color */
 }
-
 .vue-scroll-button:hover{
   box-shadow: 0 12px 14px -6px #4CAF50; /* button shadow */
 }
