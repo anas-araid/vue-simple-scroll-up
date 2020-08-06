@@ -1,5 +1,6 @@
 {
   "name": "vue-simple-scroll-up",
+  "description": "Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly when clicked. Can be used also to refresh data to load newest contents",
   "version": "0.1.1",
   "main": "dist/vue-simple-scroll-up.umd.js",
   "module": "dist/vue-simple-scroll-up.esm.js",
@@ -23,6 +24,12 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es --file dist/vue-simple-scroll-up.esm.js",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife --file dist/vue-simple-scroll-up.min.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asdf1899/vue-simple-scroll-up"
+  },
+  "author": "Anas Araid",
+  "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.0",
     "minimist": "^1.2.0",
