@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-scroll-up",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/vue-simple-scroll-up.umd.js",
   "module": "dist/vue-simple-scroll-up.esm.js",
   "unpkg": "dist/vue-simple-scroll-up.min.js",
