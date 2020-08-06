@@ -1,6 +1,8 @@
 <template>
   <div class="vue-div-wrapper">
-    <button class="vue-scroll-button" v-if="isVisible" @click="goToTop(duration)">{{this.text}}</button>
+    <transition name="fade">
+      <button class="vue-scroll-button" v-if="isVisible" @click="goToTop(duration)">{{this.text}}</button>
+    </transition>
   </div>
 </template>
 
@@ -81,5 +83,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
