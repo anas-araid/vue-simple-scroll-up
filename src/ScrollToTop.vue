@@ -56,6 +56,8 @@
         }
         window.requestAnimationFrame(step);
         //==========================================
+
+        this.$emit('scrolledOnTop');
       }
     }
   }
