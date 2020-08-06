@@ -3,7 +3,7 @@ import component from './ScrollToTop.vue';
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("vue-scroll-to-top", component);
+  Vue.component("vue-simple-scroll-up", component);
 }
 
 const plugin = {
