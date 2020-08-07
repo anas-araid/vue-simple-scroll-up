@@ -1,23 +1,25 @@
-# Vue Scroll To Top
-  
-
-[![npm](https://img.shields.io/npm/v/vue-backtotop.svg)](https://www.npmjs.com/package/vue-simple-scroll-up)
-![npm](https://img.shields.io/npm/v/vue-simple-scroll-up)
-![npm bundle size](https://img.shields.io/bundlephobia/min/vue-simple-scroll-up)
-![GitHub](https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up)
-  
-
-Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly when clicked.
+<div align="center">
+  <h1>Simple Scroll To Top</h1>
+  <img src="https://img.shields.io/npm/v/vue-simple-scroll-up" alt="version" align="center" />
+  <img src="https://img.shields.io/bundlephobia/min/vue-simple-scroll-up" alt="npm bundle size" align="center" /> 
+  <img src="https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up" alt="license" align="center" />
+  <br>
+  <img src="https://anasaraid.me/vue-simple-scroll-up-example/logo.png" alt="logo" align="center" width="320px" />
+  <p>Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly when clicked.</p>
+</div>
+<br>
+<br>
 
 Can be used also to refresh data to load newest contents using *scrolledOnTop* event.
 
-Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh button. [[Images]](https://github.com/asdf1899/vue-simple-scroll-up#inspired-by-instagram-linkedin-reddit-etc-scroll-to-refresh-buttons)
+> Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh button. [[Images]](https://github.com/asdf1899/vue-simple-scroll-up#inspired-by-instagram-linkedin-reddit-etc-scroll-to-refresh-buttons)
 
 
 
 ## Demo
-
-<img  src="https://anasaraid.me/vue-simple-scroll-up-example/example.gif"  width="320px"/>
+<div align="center">
+  <img src="https://anasaraid.me/vue-simple-scroll-up-example/example.gif" width="320px"/>
+</div>
 
 See [demo](https://anasaraid.me/vue-simple-scroll-up-example/).
 
@@ -27,8 +29,7 @@ See [demo](https://anasaraid.me/vue-simple-scroll-up-example/).
 npm i vue-simple-scroll-up --save
 ```
 
-## Import and use
-
+## Import
 
 Import for global usage
 
@@ -51,23 +52,7 @@ components: {
 }
 ...
 ```
-
-## Props
-
-| Property | Type | Default Value | Description |
-| ------------ | ------------ | ------------ | ------------ |
-| text | String | 'Back to top' | Button description.|
-| visibleY | Number | 400 | Show button when scrollY equals to visibleY value.|
-| duration | Number | 800 | Scrolling animation duration.|
-
-## Events
-
-| Name | Description |
-|------------------------|--------------------------------------------------------------------------|
-| scrolledOnTop | Triggered when scrolling finished (can be used to refresh content) |
-
-
-## How to use
+## Usage
 
 Add this into your files:
 
@@ -93,8 +78,28 @@ Overwrite this css properties to change button style:
 }
 ```
 
+## Props
+
+| Property | Type | Default Value | Description |
+| ------------ | ------------ | ------------ | ------------ |
+| text | String | 'Back to top' | Button description.|
+| visibleY | Number | 400 | Show button when scrollY equals to visibleY value.|
+| duration | Number | 800 | Scrolling animation duration.|
+
+## Events
+
+| Name | Description |
+|------------------------|--------------------------------------------------------------------------|
+| scrolledOnTop | Triggered when scrolling finished (can be used to refresh content) |
+
+
+
+
 #### Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh buttons
 
 
 <img  src="https://anasaraid.me/vue-simple-scroll-up-example/insta.jpg"  width="320px"/><br>
 <img  src="https://anasaraid.me/vue-simple-scroll-up-example/reddit.jpg"  width="320px"/>
+
+## License
+[MIT](https://github.com/asdf1899/vue-simple-scroll-up/blob/master/LICENSE.md)
