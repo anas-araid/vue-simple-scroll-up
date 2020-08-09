@@ -1,20 +1,21 @@
 <div align="center">
   <h1>Simple Scroll To Top</h1>
   <img src="https://img.shields.io/npm/v/vue-simple-scroll-up" alt="version" align="center" />
+  <img src="https://img.shields.io/npm/dw/vue-simple-scroll-up" alt="npm" align="center">
   <img src="https://img.shields.io/bundlephobia/min/vue-simple-scroll-up" alt="npm bundle size" align="center" /> 
   <img src="https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up" alt="license" align="center" />
   <br>
   <img src="https://anasaraid.me/vue-simple-scroll-up-example/logo.png" alt="logo" align="center" width="320px" />
   <p>Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly when clicked.</p>
 </div>
-<br>
-<br>
+<br><br>
+<br><br>
 
 Can be used also to refresh data to load newest contents using *scrolledOnTop* event.
 
 > Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh button. [[Images]](https://github.com/asdf1899/vue-simple-scroll-up#inspired-by-instagram-linkedin-reddit-etc-scroll-to-refresh-buttons)
 
-
+<br>
 
 ## Demo
 <div align="center">
@@ -22,6 +23,9 @@ Can be used also to refresh data to load newest contents using *scrolledOnTop* e
 </div>
 
 See [demo](https://anasaraid.me/vue-simple-scroll-up-example/).
+
+
+# Getting Started
 
 ## Install via npm
 
@@ -93,9 +97,13 @@ Overwrite this css properties to change button style:
 | scrolledOnTop | Triggered when scrolling finished (can be used to refresh content) |
 
 
+## Contributing
 
+Finding bugs, sending pull requests or improving the docs - any contribution is welcome and highly appreciated.
 
-#### Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh buttons
+<br>
+
+### Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh buttons
 
 
 <img  src="https://anasaraid.me/vue-simple-scroll-up-example/insta.jpg"  width="320px"/><br>

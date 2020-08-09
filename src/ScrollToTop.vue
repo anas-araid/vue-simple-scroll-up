@@ -43,8 +43,7 @@
         const totalScrollDistance = document.scrollingElement.scrollTop;
         let scrollY = totalScrollDistance
         let oldTimestamp = null;
-        //==========================================
-        // thanks stackoverflow for this function ¯\_(ツ)_/¯
+
         function step (newTimestamp) {
           if (oldTimestamp !== null) {
             scrollY -= totalScrollDistance * (newTimestamp - oldTimestamp) / duration;
@@ -55,7 +54,6 @@
           window.requestAnimationFrame(step);
         }
         window.requestAnimationFrame(step);
-        //==========================================
 
         this.$emit('scrolledOnTop');
       }
@@ -64,32 +62,32 @@
 </script>
 
 <style>
-.vue-scroll-button{
-  cursor:pointer;
-  position: fixed;
-  z-index: 1000;
-  margin-top:30px;
-  border-radius: 20px;
-  border: none;
-  padding: 8px;
-  background-color: black;
-  color:white;
-  outline:none;
-}
-.vue-scroll-button:hover{
-  box-shadow: 0 12px 13px -6px black;
-  transition: 0.5s;
-}
-.vue-div-wrapper{
-  text-align:center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
+  .vue-scroll-button{
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
+    margin-top:30px;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    outline: none;
+  }
+  .vue-scroll-button:hover{
+    box-shadow: 0 12px 13px -6px black;
+    transition: 0.5s;
+  }
+  .vue-div-wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .2s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
 </style>
