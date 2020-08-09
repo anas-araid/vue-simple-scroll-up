@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Simple Scroll To Top</h1>
   <img src="https://img.shields.io/npm/v/vue-simple-scroll-up" alt="version" align="center" />
-  <img src="https://img.shields.io/npm/dw/vue-simple-scroll-up" alt="npm" align="center">
+  <img src="https://img.shields.io/npm/dt/vue-simple-scroll-up" alt="npm" align="center">
   <img src="https://img.shields.io/bundlephobia/min/vue-simple-scroll-up" alt="npm bundle size" align="center" /> 
   <img src="https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up" alt="license" align="center" />
   <br>
