@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/bundlephobia/min/vue-simple-scroll-up" alt="npm bundle size" align="center" /> 
   <img src="https://img.shields.io/github/license/asdf1899/vue-simple-scroll-up" alt="license" align="center" />
   <br>
-  <img src="https://anasaraid.me/vue-simple-scroll-up-example/logo.png" alt="logo" align="center" width="320px" />
+  <img src="https://anasaraid.me/hosting/vue-simple-scroll-up/logo.png" alt="logo" align="center" width="320px" />
   <p>Simple and lightweight 'back to top' Vue.js component which scrolls up smoothly when clicked.</p>
 </div>
 <br><br>
@@ -19,7 +19,7 @@ Can be used also to refresh data to load newest contents using *scrolledOnTop* e
 
 ## Demo
 <div align="center">
-  <img src="https://anasaraid.me/vue-simple-scroll-up-example/example.gif" width="320px"/>
+  <img src="https://anasaraid.me/hosting/vue-simple-scroll-up/example.gif" width="320px"/>
 </div>
 
 See [demo](https://anasaraid.me/vue-simple-scroll-up-example/).
@@ -106,8 +106,8 @@ Finding bugs, sending pull requests or improving the docs - any contribution is 
 ### Inspired by Instagram, Linkedin, Reddit etc. scroll to refresh buttons
 
 
-<img  src="https://anasaraid.me/vue-simple-scroll-up-example/insta.jpg"  width="320px"/><br>
-<img  src="https://anasaraid.me/vue-simple-scroll-up-example/reddit.jpg"  width="320px"/>
+<img  src="https://anasaraid.me/hosting/vue-simple-scroll-up/insta.jpg"  width="320px"/><br>
+<img  src="https://anasaraid.me/hosting/vue-simple-scroll-up/reddit.jpg"  width="320px"/>
 
 ## License
 [MIT](https://github.com/asdf1899/vue-simple-scroll-up/blob/master/LICENSE.md)
